@@ -19,16 +19,15 @@
       };
       req.send(null);
     }
+    function getSize(containerPx, posPercent){
+        return containerPx / (100 / (posPercent * 100))
+    }
     window.onload = function () {
       loadJSON('heatmap.json', function(data){
         var heatmapContainer = document.getElementById('heatmapContainer');
         var { width: max_x, height: max_y } = heatmapContainer.getBoundingClientRect();
-
-        function getSize(containerPx, posPercent){
-          return containerPx / (100 / (posPercent * 100))
-        }
-
         var values = [];
+
         var newData = data.map(function(item) {
           values.push(item.value);
           return {
