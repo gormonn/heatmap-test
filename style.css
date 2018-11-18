@@ -1,0 +1,9 @@
+#heatmapContainerWrapper > #heatmapContainer{
+    background: url(./heatmap-bg.svg);
+    width: 288px;
+    height: 436px;
+    position:fixed!important;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}

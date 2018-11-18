@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<head>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div id="heatmapContainerWrapper">
+    <div id="heatmapContainer"></div>
+  </div>
+  <script src="heatmap.js"></script>
+  <script>
+    function loadJSON(src, callback) {
+      var req = new XMLHttpRequest();
+      req.overrideMimeType("application/json");
+      req.open('GET', src, true);
+      req.onreadystatechange = function () {
+        if (req.readyState == 4 && req.status == "200") {
+          callback(JSON.parse(req.responseText));
+        }
+      };
+      req.send(null);
+    }
+    window.onload = function () {
+      loadJSON('heatmap.json', function(data){
+        var heatmapContainer = document.getElementById('heatmapContainer');
+        var { width: max_x, height: max_y } = heatmapContainer.getBoundingClientRect();
+
+        function getSize(containerPx, posPercent){
+          return containerPx / (100 / (posPercent * 100))
+        }
+
+        var values = [];
+        var newData = data.map(function(item) {
+          values.push(item.value);
+          return {
+            x: getSize(max_x, item.x),
+            y: getSize(max_y, item.y),
+            value: item.value
+          };
+        });
+
+        var heatmap = h337.create({
+          container: heatmapContainer,
+          radius: 20
+        });
+        heatmap.setData({
+          max: 2, // or Math.max(...values)
+          data: newData
+        });
+      });
+    };
+  </script>
+</body>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 288 436" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g fill="none" transform="translate(-3, -6)">
+    <g transform="translate(147, 222) rotate(-270) translate(-147, -222) translate(-75, 75)">
+      <rect id="Rectangle" x="0" y="0" width="444" height="294" />
+      <path d="M13.609835,277.802854 C12.3524756,279.77728 11.723796,281.8986 11.723796,284.166815 C11.723796,286.435031 12.3524756,288.556351 13.609835,290.530777" id="Line-2-Copy-3" stroke="#0E0E0E" stroke-width="1.5" stroke-linecap="round" transform="translate(12.666815, 284.166815) rotate(-225) translate(-12.666815, -284.166815) " />
+      <rect id="Rectangle-27" fill="#0E0E0E" x="221.25" y="4.5" width="1.5" height="285" />
+      <circle id="Oval-10" stroke="#0E0E0E" stroke-width="1.5" cx="222" cy="147" r="36" />
+      <circle id="Oval" fill="#0E0E0E" cx="222" cy="147" r="3" />
+      <circle id="Oval-Copy" fill="#0E0E0E" cx="52.5" cy="147" r="3" />
+      <circle id="Oval-Copy-2" fill="#0E0E0E" cx="394.5" cy="147" r="3" />
+      <rect id="Rectangle-28" stroke="#0E0E0E" stroke-width="1.5" x="7.5" y="4.5" width="432" height="285" />
+      <rect id="Rectangle-29" stroke="#0E0E0E" stroke-width="1.5" x="7.5" y="75" width="66" height="144" />
+      <rect id="Rectangle-29-Copy-2" stroke="#0E0E0E" stroke-width="1.5" x="7.5" y="111" width="24" height="72" />
+      <rect id="Rectangle-29-Copy-3" stroke="#0E0E0E" stroke-width="1.5" x="415.5" y="111" width="24" height="72" />
+      <rect id="Rectangle-29-Copy" stroke="#0E0E0E" stroke-width="1.5" x="373.5" y="75" width="66" height="144" />
+      <path d="M373.5,120 C364.5,126.510863 360,135.760863 360,147.75 C360,159.739137 364.5,168.989137 373.5,175.5" id="Line-2" stroke="#0E0E0E" stroke-width="1.5" stroke-linecap="round" />
+      <path d="M87,120 C78,126.510863 73.5,135.760863 73.5,147.75 C73.5,159.739137 78,168.989137 87,175.5" id="Line-2-Copy" stroke="#0E0E0E" stroke-width="1.5" stroke-linecap="round" transform="translate(80.250000, 147.750000) rotate(-180) translate(-80.250000, -147.750000)" />
+      <path d="M13.609835,3.30285444 C12.3524756,5.27727994 11.723796,7.39860028 11.723796,9.66681547 C11.723796,11.9350307 12.3524756,14.056351 13.609835,16.0307765" id="Line-2-Copy-2" stroke="#0E0E0E" stroke-width="1.5" stroke-linecap="round" transform="translate(12.666815, 9.666815) rotate(-135) translate(-12.666815, -9.666815)" />
+      <path d="M435.109835,3.30285444 C433.852476,5.27727994 433.223796,7.39860028 433.223796,9.66681547 C433.223796,11.9350307 433.852476,14.056351 435.109835,16.0307765" id="Line-2-Copy-3" stroke="#0E0E0E" stroke-width="1.5" stroke-linecap="round" transform="translate(434.166815, 9.666815) rotate(-45) translate(-434.166815, -9.666815)" />
+      <path d="M436.109835,277.802854 C434.852476,279.77728 434.223796,281.8986 434.223796,284.166815 C434.223796,286.435031 434.852476,288.556351 436.109835,290.530777" id="Line-2-Copy-3" stroke="#0E0E0E" stroke-width="1.5" stroke-linecap="round" transform="translate(435.166815, 284.166815) rotate(-315) translate(-435.166815, -284.166815)" />
+    </g>
+  </g>
+</svg>
